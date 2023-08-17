@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mejora la apariencia del scroll en windows */
+::-webkit-scrollbar {
+  width: 0px;
+}

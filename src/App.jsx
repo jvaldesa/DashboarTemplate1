@@ -5,6 +5,7 @@ import { Register } from "./pages/auth/Register"
 import { LayoutAdmin } from "./layouts/LayoutAdmin"
 import { Home } from "./pages/admin/Home"
 import { LayoutAuth } from "./layouts/LayoutAuth"
+import { ForgetPassword } from "./pages/auth/ForgetPassword"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/auth" element={<LayoutAuth />}>
           <Route index element={<Login />} />
           <Route path="registro" element={<Register />} />
+          <Route path="olvide-password" element={<ForgetPassword />} />
         </Route>
         <Route path="/" element={<LayoutAdmin />}>
           <Route index element={<Home />} />
